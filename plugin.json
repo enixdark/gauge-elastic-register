@@ -1,0 +1,32 @@
+{
+    "id": "gauge-elastic-register",
+    "version": "0.0.1",
+    "name": "Elasticsearch Report",
+    "description": "Elastic report reporting plugin",
+    "install": {
+        "windows": [],
+        "linux": [],
+        "darwin": []
+    },
+    "command": {
+        "windows": [
+            "bin/gauge-elastic-register"
+        ],
+        "linux": [
+            "bin/gauge-elastic-register"
+        ],
+        "darwin": [
+            "bin/gauge-elastic-register"
+        ]
+    },
+    "scope": [
+        "Execution"
+    ],
+    "gaugeVersionSupport": {
+        "minimum": "0.0.1",
+        "maximum": ""
+    },
+    "capabilities": [
+        "grpc_support"
+    ]
+}
